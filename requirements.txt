@@ -6,6 +6,6 @@ matplotlib
 seaborn
 datetime
 yfinance
-pickle
+pickle5
 statsmodels
 prophet
