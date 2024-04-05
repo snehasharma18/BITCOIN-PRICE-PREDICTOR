@@ -4,3 +4,8 @@ scikit-learn
 streamlit
 matplotlib
 seaborn
+datetime
+yfinance
+pickle
+statsmodels
+prophet
