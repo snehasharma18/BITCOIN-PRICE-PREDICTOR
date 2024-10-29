@@ -167,7 +167,7 @@ st.markdown(
 )
 
 # Load models
-lstm_model = load_model("D:\\Projects\\Bitcoin Price Prediction\\lstm_model.h5")
+lstm_model = load_model("lstm_model.h5")
 scaler = MinMaxScaler()
 
 with open("prophet_model.pkl", 'rb') as f:
