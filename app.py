@@ -170,7 +170,7 @@ st.markdown(
 lstm_model = load_model("D:\\Projects\\Bitcoin Price Prediction\\lstm_model.h5")
 scaler = MinMaxScaler()
 
-with open("D:\\Projects\\Bitcoin Price Prediction\\prophet_model.pkl", 'rb') as f:
+with open("prophet_model.pkl", 'rb') as f:
     prophet_model = pickle.load(f)
 
 with open("arima_model.pkl", 'rb') as f:
