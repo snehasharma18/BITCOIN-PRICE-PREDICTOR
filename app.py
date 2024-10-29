@@ -10,7 +10,6 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 from nixtla import NixtlaClient
-from streamlit_extras.add_vertical_space import add_vertical_space
 
 st.set_page_config(layout="wide")
 
