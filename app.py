@@ -173,7 +173,7 @@ scaler = MinMaxScaler()
 with open("D:\\Projects\\Bitcoin Price Prediction\\prophet_model.pkl", 'rb') as f:
     prophet_model = pickle.load(f)
 
-with open("D:\\Projects\\Bitcoin Price Prediction\\arima_model.pkl", 'rb') as f:
+with open("arima_model.pkl", 'rb') as f:
     arima_model = joblib.load(f)
 
 nixtla_client = NixtlaClient(api_key='nixtla-tok-xmAyKHqhIBdxxbi4cHkXXu2QxqAIhzfmykdQw4SkorJjqlO2ZjI5JuDQ0yYiCZplmhaDM0DPbnDbhpMs')
